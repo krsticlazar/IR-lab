@@ -1,0 +1,24 @@
+# Eclipse workspace metadata
+.metadata/
+**/.settings/
+
+# Java/Eclipse build output
+**/bin/
+*.class
+
+# Generated Lucene data
+**/IndeksOriginalni/
+**/IndeksDelovi/
+**/PodaciDelovi/
+
+# Local lab material and downloaded archives
+1.Lab materijal/
+**/Materijal/
+*.tar
+*.tgz
+*.zip
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log
