@@ -1,0 +1,15 @@
+Docker startup notes
+
+Use the terminal inside Docker Desktop if the regular Windows terminal does not work.
+
+1. Open Docker Desktop.
+2. Open the terminal inside Docker Desktop.
+3. Go to the Lab 4 project folder.
+4. Start Elasticsearch:
+   docker compose -f scripts/docker-compose.yml up -d
+5. Check that it is running:
+   docker ps
+6. Elasticsearch should be available at:
+   http://localhost:9200
+7. To stop Elasticsearch:
+   docker compose -f scripts/docker-compose.yml down

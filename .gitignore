@@ -4,19 +4,46 @@
 
 # Java/Eclipse build output
 **/bin/
+**/obj/
 *.class
+
+# Node/React build output
+**/node_modules/
+**/dist/
+**/.vite/
+*.tsbuildinfo
 
 # Generated Lucene data
 **/IndeksOriginalni/
 **/IndeksDelovi/
+**/IndeksBM25/
+**/IndeksClassic/
+**/IndeksTxt/
+**/IndeksTika/
 **/PodaciDelovi/
 
 # Local lab material and downloaded archives
 1.Lab materijal/
+2.Lab materijal/
+3.Lab materijal/
+4.Lab materijal/
 **/Materijal/
 *.tar
 *.tgz
 *.zip
+*.7z
+*.rar
+markdown-image-*.png
+
+# Lab 4 generated document corpus
+_19190_Lazar_Krstic_lab4/data/documents/*
+!_19190_Lazar_Krstic_lab4/data/documents/.gitkeep
+
+# Local app configuration
+.env
+.env.local
+*.user
+*.suo
 
 # OS/editor noise
 .DS_Store
